@@ -1,1 +1,3 @@
 rootProject.name = 'spring-resilience4j'
+
+include("server1", "server2")
