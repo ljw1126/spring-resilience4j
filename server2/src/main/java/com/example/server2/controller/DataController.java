@@ -13,7 +13,7 @@ public class DataController {
         LocalDateTime now = LocalDateTime.now();
 
         try {
-            Thread.sleep(10000); // 10s
+            Thread.sleep(5000); // 5s
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
